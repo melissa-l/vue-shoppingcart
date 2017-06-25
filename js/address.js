@@ -11,7 +11,7 @@ new Vue({
 			this.getAddressList();
 		});
 	},
-	computed:{
+	computed:{//过滤数组
 		filterAddress:function(){
 			return this.addressList.slice(0,this.limitNum);
 		}
